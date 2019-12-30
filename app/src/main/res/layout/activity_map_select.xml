@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapSelectActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_pirate_banner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="639dp"
+        android:layout_height="170dp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/button_map_01"
+                android:layout_width="107dp"
+                android:layout_height="108dp"
+                android:layout_margin="5mm"
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_menu_mapmode"
+                android:text="Button"
+                tools:src="@android:drawable/ic_menu_mapmode" />
+
+            <ImageButton
+                android:id="@+id/button_map_02"
+                android:layout_width="107dp"
+                android:layout_height="108dp"
+                android:layout_margin="5mm"
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_menu_mapmode"
+                android:text="Button"
+                tools:src="@android:drawable/ic_menu_mapmode" />
+
+            <ImageButton
+                android:id="@+id/button_map_03"
+                android:layout_width="107dp"
+                android:layout_height="108dp"
+                android:layout_margin="5mm"
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_menu_mapmode"
+                android:text="Button"
+                tools:src="@android:drawable/ic_menu_mapmode" />
+
+            <ImageButton
+                android:id="@+id/button_map_04"
+                android:layout_width="107dp"
+                android:layout_height="108dp"
+                android:layout_margin="5mm"
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_menu_mapmode"
+                android:text="Button"
+                tools:src="@android:drawable/ic_menu_mapmode" />
+
+            <ImageButton
+                android:id="@+id/button_map_05"
+                android:layout_width="107dp"
+                android:layout_height="108dp"
+                android:layout_margin="5mm"
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_menu_mapmode"
+                android:text="Button"
+                tools:src="@android:drawable/ic_menu_mapmode" />
+
+            <ImageButton
+                android:id="@+id/button_map_06"
+                android:layout_width="107dp"
+                android:layout_height="108dp"
+                android:layout_margin="5mm"
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_menu_mapmode"
+                android:text="Button"
+                tools:src="@android:drawable/ic_menu_mapmode" />
+
+            <ImageButton
+                android:id="@+id/button_map_07"
+                android:layout_width="107dp"
+                android:layout_height="108dp"
+                android:layout_margin="5mm"
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_menu_mapmode"
+                android:text="Button"
+                tools:src="@android:drawable/ic_menu_mapmode" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
