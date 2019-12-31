@@ -8,13 +8,11 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_pirate_banner"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_pirate_banner" />
 
     <HorizontalScrollView
         android:id="@+id/horizontalScrollView"
@@ -33,7 +31,7 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/button_map_01"
+                android:id="@+id/Button_Map_01"
                 android:layout_width="107dp"
                 android:layout_height="108dp"
                 android:layout_margin="5mm"
@@ -43,57 +41,62 @@
                 tools:src="@android:drawable/ic_menu_mapmode" />
 
             <ImageButton
-                android:id="@+id/button_map_02"
+                android:id="@+id/Button_Map_02"
                 android:layout_width="107dp"
                 android:layout_height="108dp"
                 android:layout_margin="5mm"
                 android:layout_weight="1"
+                android:clickable="false"
                 android:src="@android:drawable/ic_menu_mapmode"
                 android:text="Button"
                 tools:src="@android:drawable/ic_menu_mapmode" />
 
             <ImageButton
-                android:id="@+id/button_map_03"
+                android:id="@+id/Button_Map_03"
                 android:layout_width="107dp"
                 android:layout_height="108dp"
                 android:layout_margin="5mm"
                 android:layout_weight="1"
+                android:clickable="false"
                 android:src="@android:drawable/ic_menu_mapmode"
                 android:text="Button"
                 tools:src="@android:drawable/ic_menu_mapmode" />
 
             <ImageButton
-                android:id="@+id/button_map_04"
+                android:id="@+id/Button_Map_04"
                 android:layout_width="107dp"
                 android:layout_height="108dp"
                 android:layout_margin="5mm"
                 android:layout_weight="1"
+                android:clickable="false"
                 android:src="@android:drawable/ic_menu_mapmode"
                 android:text="Button"
                 tools:src="@android:drawable/ic_menu_mapmode" />
 
             <ImageButton
-                android:id="@+id/button_map_05"
+                android:id="@+id/Button_Map_05"
                 android:layout_width="107dp"
                 android:layout_height="108dp"
                 android:layout_margin="5mm"
                 android:layout_weight="1"
+                android:clickable="false"
                 android:src="@android:drawable/ic_menu_mapmode"
                 android:text="Button"
                 tools:src="@android:drawable/ic_menu_mapmode" />
 
             <ImageButton
-                android:id="@+id/button_map_06"
+                android:id="@+id/Button_Map_06"
                 android:layout_width="107dp"
                 android:layout_height="108dp"
                 android:layout_margin="5mm"
                 android:layout_weight="1"
+                android:clickable="false"
                 android:src="@android:drawable/ic_menu_mapmode"
                 android:text="Button"
                 tools:src="@android:drawable/ic_menu_mapmode" />
 
             <ImageButton
-                android:id="@+id/button_map_07"
+                android:id="@+id/Button_Map_07"
                 android:layout_width="107dp"
                 android:layout_height="108dp"
                 android:layout_margin="5mm"
@@ -104,5 +107,21 @@
 
         </LinearLayout>
     </HorizontalScrollView>
+
+    <ImageButton
+        android:id="@+id/Button_Back_MapSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@android:drawable/ic_menu_revert"
+        android:text="Button2"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.023"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044"
+        tools:src="@android:drawable/ic_menu_revert"
+        tools:srcCompat="@android:drawable/ic_menu_revert" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -15,6 +15,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //hide the status and navigation bar
+        getWindow().getDecorView().setSystemUiVisibility(UIOptions.STANDARD_UI_OPTIONS);
+
+        //Button to MapSelect activity
         button = (ImageButton) findViewById(R.id.PlayButton);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -23,7 +27,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-    public void openMapSelect() {
+
+    private void openMapSelect() {
         Intent intent = new Intent(this, MapSelectActivity.class);
         startActivity(intent);
     }
