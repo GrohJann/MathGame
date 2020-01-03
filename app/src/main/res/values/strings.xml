@@ -3,4 +3,5 @@
     <string name="play">Play</string>
     <string name="game_startscreen">Game Startscreen</string>
     <string name="button_start">Start Button</string>
+    <string name="Google_Play_Services_privacy_requirements">This application runs on Google Play Services for AR (ARCore), which is provided by Google LLC and governed by the Google Privacy Policy.</string>
 </resources>

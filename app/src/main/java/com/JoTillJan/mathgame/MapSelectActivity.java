@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
+import com.JoTillJan.mathgame.Helper.UIOptions;
+
 public class MapSelectActivity extends AppCompatActivity {
 
     private ImageButton backButton;
@@ -40,7 +42,7 @@ public class MapSelectActivity extends AppCompatActivity {
     }
 
     private void openStartScreen(){
-        Intent intent = new Intent(this, LevelSelectActivity.class);
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 
